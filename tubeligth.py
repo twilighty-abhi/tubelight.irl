@@ -13,13 +13,15 @@ access_token = config['twitter']['access_token']
 access_token_secret = config['twitter']['access_token_secret']
 
 
-# authentication
+# authentication methods for twitter
 auth = tweepy.OAuthHandler(api_key, api_key_secret)
 auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
 public_tweets = api.home_timeline()
+
+
 
 # create dataframe
 columns = ['Time', 'User', 'Tweet']
