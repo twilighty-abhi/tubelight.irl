@@ -12,6 +12,9 @@
 /.next/
 /out/
 
+#ignore the config file
+*.ini
+
 # production
 /build
 
