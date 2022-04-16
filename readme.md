@@ -17,7 +17,7 @@ API for this week is Twitter API.
 Contributors names and contact info
 
 Abhiram N J
-ex. [@TwilightyAbhi](https://twitter.com/TwilightyAbhi)
+ [@TwilightyAbhi](https://twitter.com/TwilightyAbhi)
 
 ## Version History
 
