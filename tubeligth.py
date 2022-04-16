@@ -1,6 +1,6 @@
 import tweepy
 import configparser
-
+import pandas as pd
 
 #trying to read the config file
 config = configparser.ConfigParser()
